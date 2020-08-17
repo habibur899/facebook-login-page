@@ -1,0 +1,230 @@
+/*
+Template Name: Facebook - Social Media Login Page Template
+Author: Habibur Rahman
+Author URI: https://facebook.com/habibur5g
+Description: Facebook - Social Media Login Page Template
+Version: 1.0
+*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+	1.Google Fonts
+	2.Common Css
+	3.Header Css
+    4.Main Body Css
+    5.Footer Css
+-------------------------------------------------------------------*/
+
+
+/*====================================================================================
+										1.Google Fonts
+==================================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+/*====================================================================================
+										2.Common Css
+==================================================================================== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pb-35 {
+    padding-bottom: 35px;
+}
+
+ul {
+    list-style: none;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*====================================================================================
+										3.Header Css
+==================================================================================== */
+
+.header-bg {
+    background-color: #3b5998;
+}
+
+.logo h2 {
+    color: #ffffff;
+    font-size: 43px;
+    font-weight: 700;
+}
+
+
+/*login email*/
+
+.login-email {}
+
+.login-email label,
+.login-pass label {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.login-email input[type=checkbox] {
+    display: block;
+    float: left;
+    clear: both;
+    overflow: hidden;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.login-email span {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    color: #98a9ca;
+    font-weight: 300;
+}
+
+
+/*login pass*/
+
+.login-pass a {
+    font-size: 12px;
+    color: #98a9ca;
+    font-weight: 300;
+}
+
+
+/*login submit button*/
+
+.login-submit a {
+    -webkit-box-shadow: 1px 2px 0 rgba(53, 79, 136, 0.33);
+    box-shadow: 1px 2px 0 rgba(53, 79, 136, 0.33);
+    border: 1px solid #1a356e;
+    background-color: #5972a7;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 14px;
+    text-align: center;
+}
+
+
+/*====================================================================================
+										    4.Main Body Css
+==================================================================================== */
+
+.main-bg {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#d3d8e8), to(#ffffff));
+    background-image: -o-linear-gradient(bottom, #d3d8e8 0%, #ffffff 100%);
+    background-image: linear-gradient(to top, #d3d8e8 0%, #ffffff 100%);
+}
+
+.main-left h3 {
+    color: #0e385f;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.main-right {}
+
+.main-right h1 {
+    color: #141823;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.main-right p {
+    color: #141823;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.main-right input {
+    margin-bottom: 10px;
+}
+
+.main-right h3 {
+    color: #000333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-right select {
+    border: 1px solid #bdc7d8;
+    background-color: #ffffff;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+
+.main-right span {
+    color: #3b5998;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 8px;
+}
+
+.main-right .gender {
+    color: #373738;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+.main-right .privacy-policy {
+    color: #777777;
+    font-size: 12px;
+    font-weight: 300;
+    width: 330px;
+}
+
+.main-right a.signup-btn {
+    border: 1px solid #3b6e22;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#53853f), to(#65ab53));
+    background-image: -o-linear-gradient(bottom, #53853f 0%, #65ab53 100%);
+    background-image: linear-gradient(to top, #53853f 0%, #65ab53 100%);
+    padding: 8px 40px;
+    display: inline-block;
+}
+
+.main-right a.signup-btn:hover {
+    border: 1px solid #3b6e22;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#65ab53), to(#53853f));
+    background-image: -o-linear-gradient(bottom, #65ab53 0%, #53853f 100%);
+    background-image: linear-gradient(to top, #65ab53 0%, #53853f 100%);
+}
+
+.main-right h4 {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/*====================================================================================
+										    5.Footer Css
+==================================================================================== */
+
+ul.top-footer-list li {
+    margin-top: 15px;
+}
+
+ul.top-footer-list li,
+ul.bottom-footer-list li {
+    margin-right: 8px;
+}
+
+.copyright-area {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 10px;
+}
